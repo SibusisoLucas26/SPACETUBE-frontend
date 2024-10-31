@@ -1,0 +1,34 @@
+.dashboard {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dashboard-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-variant-caps: all-petite-caps;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: white;
+    background-color: #2131424f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-variant-caps: all-small-caps;
+}
+
+.category-button:hover {
+    background-color: #0056b3;
+}
